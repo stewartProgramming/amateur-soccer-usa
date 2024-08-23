@@ -3,25 +3,36 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Database
 {
-    [Table("League")]
+    [Table("Leagues")]
     public class League
     {
         [Key]
+        [Column("LeagueId")]
         public int Id { get; set; }
 
+        [Column("LeagueName")]
         [Required(ErrorMessage = "Name is required")]
-        [StringLength(150, ErrorMessage = "Cannot exceed 150 characters")]
+        [StringLength(150, ErrorMessage = "Cannot exceed 255 characters")]
         public required string Name { get; set; }
 
-        [Required(ErrorMessage = "Country is required")]
-        [StringLength(100, ErrorMessage = "Cannot exceed 100 characters")]
-        public required string Country { get; set; }
+        [Column("StartYear")]
+        public int? StartingYear { get; set; }
 
-        [Required(ErrorMessage = "Administrative region is required")]
-        [StringLength(100, ErrorMessage = "Cannot exceed 100 characters")]
-        public required string AdministrativeRegion { get; set; }
+        //[ForeignKey(nameof(Country))]
+        //[Required(ErrorMessage = "Country is required")]
+        //public required int CountryId { get; set; }
+        //public required Country Country { get; set; }
 
-        [Required(ErrorMessage = "Start year is required")]
-        public required int StartYear { get; set; }
+        [ForeignKey(nameof(Region))]
+        [Required(ErrorMessage = "Region is required")]
+        public required int RegionId { get; set; }
+        public required Region Region { get; set; }
+
+        [Required(ErrorMessage = "Active is required")]
+        public required bool Active { get; set; }
+
+        [Column("LeagueLogo")]
+        [StringLength(500, ErrorMessage = "Cannot exceed 500 characters")]
+        public string? Logo { get; set; }
     }
 }

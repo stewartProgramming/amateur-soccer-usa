@@ -1,24 +1,37 @@
 ﻿using Entities.Database;
+using Entities.Parameters;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository;
+using System.Linq;
 
 namespace Repository.League
 {
     public class LeagueRepository(RepositoryContext repoContext) 
         : RepositoryBase<Entities.Database.League>(repoContext), ILeagueRepository
     {
-        public async Task<IEnumerable<Entities.Database.League>> GetLeagues()
+        public async Task<IEnumerable<Entities.Database.League>> GetAsync(LeagueParameters parameters)
         {
-            return await 
-                FindAll()
-                .ToListAsync();
-        }
+            var leagues = FindAll();
 
-        public async Task<IEnumerable<Entities.Database.League>> GetLeaguesByAdministrativeRegion
-            (string administrativeRegion)
-        {
-            return await 
-                FindByCondition(x => x.AdministrativeRegion == administrativeRegion)
+            if (parameters.StartingYear != null)
+                leagues = leagues
+                    .Where(x => x.StartingYear == parameters.StartingYear);
+
+            if (parameters.LeagueId != null)
+                leagues = leagues
+                    .Where(x => x.Id.Equals(parameters.LeagueId));
+
+            if (parameters.RegionId != null)
+                leagues = leagues
+                    .Where(x => x.RegionId.Equals(parameters.RegionId));
+
+            if (parameters.CountryId != null)
+                leagues = leagues
+                    .Where(x => x.Region.CountryId.Equals(parameters.CountryId));
+
+            return await leagues
+                .Include(x => x.Region)
+                    .ThenInclude(x => x.Country)
                 .ToListAsync();
         }
     }

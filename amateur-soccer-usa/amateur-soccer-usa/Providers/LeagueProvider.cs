@@ -1,19 +1,14 @@
 ﻿using Entities.Database;
+using Entities.Parameters;
 using Repository.League;
 
 namespace amateur_soccer_usa.Providers
 {
     public class LeagueProvider(ILeagueRepository leagueRepo) : ILeagueProvider
     {
-        public async Task<IEnumerable<League>> GetAllLeaguesAsync()
+        public async Task<IEnumerable<League>> GetAsync(LeagueParameters parameters)
         {
-            return await leagueRepo.GetLeagues();
-        }
-
-        public async Task<IEnumerable<League>> GetLeaguesByAdministrativeRegionAsync
-            (string administrativeRegion)
-        {
-            return await leagueRepo.GetLeaguesByAdministrativeRegion(administrativeRegion);
+            return await leagueRepo.GetAsync(parameters);
         }
     }
 }
