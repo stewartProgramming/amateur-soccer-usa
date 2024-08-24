@@ -1,7 +1,6 @@
 ﻿using amateur_soccer_usa.Providers;
 using Entities.Parameters;
 using Microsoft.AspNetCore.Mvc;
-using System.Xml;
 
 namespace amateur_soccer_usa.Controllers
 {

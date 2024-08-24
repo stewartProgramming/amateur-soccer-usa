@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|c:\\users\\brian taylor\\desktop\\amateur-soccer-usa\\amateur-soccer-usa\\entities\\database\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|solutionrelative:entities\\database\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "League.cs",
-              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\League.cs",
-              "RelativeDocumentMoniker": "Entities\\Database\\League.cs",
-              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\League.cs",
-              "RelativeToolTip": "Entities\\Database\\League.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T19:48:49.201Z",
-              "EditorCaption": ""
             }
           ]
         }

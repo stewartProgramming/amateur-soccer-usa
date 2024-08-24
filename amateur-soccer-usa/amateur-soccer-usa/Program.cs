@@ -9,11 +9,13 @@ var configBuild = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables()
     .AddCommandLine(args);
-IConfiguration config = configBuild.Build();
+var config = configBuild.Build();
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 builder.Services.AddDbContext<RepositoryContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<ILeagueRepository, LeagueRepository>();

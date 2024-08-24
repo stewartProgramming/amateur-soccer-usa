@@ -2,7 +2,6 @@
 using Entities.Parameters;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repository;
-using System.Linq;
 
 namespace Repository.League
 {
@@ -32,6 +31,7 @@ namespace Repository.League
             return await leagues
                 .Include(x => x.Region)
                     .ThenInclude(x => x.Country)
+                .Include(x => x.Teams)
                 .ToListAsync();
         }
     }

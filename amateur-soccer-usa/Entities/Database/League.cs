@@ -34,5 +34,9 @@ namespace Entities.Database
         [Column("LeagueLogo")]
         [StringLength(500, ErrorMessage = "Cannot exceed 500 characters")]
         public string? Logo { get; set; }
+
+        public int? Tier { get; set; }
+
+        public IEnumerable<Team>? Teams { get; set; }
     }
 }
