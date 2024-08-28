@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pGV0V8ar5jw=",
+  "dgSpecHash": "4BI079VHMsU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa.csproj",
+  "projectFilePath": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian Taylor\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Brian Taylor\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

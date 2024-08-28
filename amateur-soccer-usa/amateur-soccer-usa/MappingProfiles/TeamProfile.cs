@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Entities.Database;
+using Entities.DTO;
 
 namespace amateur_soccer_usa.MappingProfiles
 {
@@ -6,7 +8,7 @@ namespace amateur_soccer_usa.MappingProfiles
     {
         public TeamProfile()
         {
-
+            CreateMap<Team, LeagueTeamDTO>();
         }
     }
 }

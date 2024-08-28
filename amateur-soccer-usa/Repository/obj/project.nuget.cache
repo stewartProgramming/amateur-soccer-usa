@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eL64aN1/sZ8=",
+  "dgSpecHash": "prVI+bysG14=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian Taylor\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\Brian Taylor\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",

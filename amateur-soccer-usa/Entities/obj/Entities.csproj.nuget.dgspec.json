@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj": {
+    "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Brian Taylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brian Taylor\\Desktop\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Brian Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/amateur-soccer-usa/amateur-soccer-usa/appsettings.Development.json
+/amateur-soccer-usa/amateur-soccer-usa/appsettings.json
+/amateur-soccer-usa/amateur-soccer-usa/bin/Debug/net8.0/appsettings.json
+/amateur-soccer-usa/amateur-soccer-usa/bin/Debug/net8.0/appsettings.Development.json

@@ -8,7 +8,9 @@ namespace amateur_soccer_usa.MappingProfiles
     {
         public LeagueProfile()
         {
-            CreateMap<League, LeagueDTO>();
+            CreateMap<League, LeagueDTO>()
+                .ForMember(x => x.Teams, y => y.MapFrom(z => z.Teams))
+                ;
         }
     }
 }
