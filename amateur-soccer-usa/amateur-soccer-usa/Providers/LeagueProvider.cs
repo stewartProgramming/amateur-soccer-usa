@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Entities.Database;
-using Entities.DTO;
+using Entities.DTO.League;
 using Entities.Parameters;
 using Repository.League;
 

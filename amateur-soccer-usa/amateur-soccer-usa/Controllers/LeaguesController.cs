@@ -13,5 +13,8 @@ namespace amateur_soccer_usa.Controllers
         {
             return Ok(await leagueProvider.GetAsync(parameters));
         }
+
+        //[HttpGet(Name = "CreateLeague")]
+        //public async Task<IActionResult> CreateAsync()
     }
 }

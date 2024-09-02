@@ -1,4 +1,4 @@
-﻿namespace Entities.DTO
+﻿namespace Entities.DTO.League
 {
     public class LeagueTeamDTO
     {

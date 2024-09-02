@@ -1,6 +1,6 @@
 ﻿using Entities.Database;
 
-namespace Entities.DTO
+namespace Entities.DTO.League
 {
     public class LeagueDTO
     {
