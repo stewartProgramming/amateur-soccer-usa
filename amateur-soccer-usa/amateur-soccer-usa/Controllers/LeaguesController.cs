@@ -1,10 +1,12 @@
 ﻿using amateur_soccer_usa.Providers;
 using Entities.DTO.League;
 using Entities.Parameters;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace amateur_soccer_usa.Controllers
 {
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class LeaguesController(ILeagueProvider leagueProvider) : ControllerBase
@@ -18,9 +20,15 @@ namespace amateur_soccer_usa.Controllers
         [HttpPost(Name = "CreateLeague")]
         public async Task<IActionResult> CreateAsync([FromBody]LeagueCreateDTO createModel)
         {
-            await leagueProvider.CreateAsync(createModel);
+            return Ok(await leagueProvider.CreateAsync(createModel));
 
-            return NoContent();
+            //if (User.Identity != null && User.Identity.Name != null)
+            //{
+            //    string name = User.Identity.Name;
+            //    await leagueProvider.CreateAsync(createModel, name);
+
+            //    return Ok();
+            //}
         }
 
         [HttpPut(Name = "UpdateLeague")]
