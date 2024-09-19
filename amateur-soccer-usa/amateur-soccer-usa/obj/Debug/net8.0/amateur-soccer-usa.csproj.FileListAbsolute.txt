@@ -158,3 +158,8 @@ C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\ama
 C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\obj\Debug\net8.0\amateur-soccer-usa.pdb
 C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\obj\Debug\net8.0\amateur-soccer-usa.genruntimeconfig.cache
 C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\obj\Debug\net8.0\ref\amateur-soccer-usa.dll
+C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\Brian Taylor\Desktop\projects\amateur-soccer-usa\amateur-soccer-usa\amateur-soccer-usa\bin\Debug\net8.0\ObjectsComparer.dll

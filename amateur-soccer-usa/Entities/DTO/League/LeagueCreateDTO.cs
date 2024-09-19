@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Entities.DTO.League
 {
@@ -11,11 +6,9 @@ namespace Entities.DTO.League
     {
         [StringLength(150, ErrorMessage = "Cannot exceed 150 characters")]
         public required string Name { get; set; }
-
-        [StringLength(200, ErrorMessage = "Cannot exceed 200 characters")]
-        public required string Country { get; set; }
-        
-        
+        public required int Region { get; set; }
+        public required int Country { get; set; }
+        public string? LogoUrl { get; set; }
         public int? Tier { get; set; }
         public int? StartingYear { get; set; }
     }

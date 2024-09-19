@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Entities.DTO.League;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Database
@@ -6,6 +7,18 @@ namespace Entities.Database
     [Table("Leagues")]
     public class League
     {
+        public League() { }
+
+        public League(LeagueCreateDTO createModel)
+        {
+            Name = createModel.Name;
+            StartingYear = createModel.StartingYear;
+            CountryId = createModel.Country;
+            RegionId = createModel.Region;
+            Active = true;
+            Tier = createModel.Tier;
+        }
+
         [Key]
         [Column("LeagueId")]
         public int Id { get; set; }
@@ -26,7 +39,9 @@ namespace Entities.Database
         [ForeignKey(nameof(Region))]
         [Required(ErrorMessage = "Region is required")]
         public required int RegionId { get; set; }
-        public required Region Region { get; set; }
+        public Region? Region { get; set; }
+
+        public required int CountryId { get; set; }
 
         [Required(ErrorMessage = "Active is required")]
         public required bool Active { get; set; }

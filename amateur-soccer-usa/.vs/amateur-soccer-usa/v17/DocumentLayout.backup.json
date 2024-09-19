@@ -3,22 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\controllers\\leaguescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|solutionrelative:amateur-soccer-usa\\controllers\\leaguescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\providers\\ileagueprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|solutionrelative:amateur-soccer-usa\\providers\\ileagueprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\entities\\dto\\league\\leagueupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\league\\leagueupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\mappingprofiles\\leagueprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|solutionrelative:amateur-soccer-usa\\mappingprofiles\\leagueprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\entities\\dto\\league\\leaguecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\league\\leaguecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\providers\\leagueprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7ED1220-8B15-4EC7-9B07-D7EB5D2D15B2}|amateur-soccer-usa\\amateur-soccer-usa.csproj|solutionrelative:amateur-soccer-usa\\providers\\leagueprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\entities\\database\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|solutionrelative:entities\\database\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|c:\\users\\brian taylor\\desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\entities\\database\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2B9196-130D-4374-AB40-CA7062A7063B}|Entities\\Entities.csproj|solutionrelative:entities\\database\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/matchday.database.windows.net/matchday/referee/SqlTable/dbo.Regions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/matchday.database.windows.net/matchday/referee/SqlTable/dbo.Venues.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,61 +42,136 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Venues [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/matchday.database.windows.net/matchday/referee/SqlTable/dbo.Venues.sql",
-              "ToolTip": "dbo.Venues [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-02T19:36:04.223Z",
+              "DocumentIndex": 5,
+              "Title": "LeagueProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\Providers\\LeagueProvider.cs",
+              "RelativeDocumentMoniker": "amateur-soccer-usa\\Providers\\LeagueProvider.cs",
+              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\Providers\\LeagueProvider.cs",
+              "RelativeToolTip": "amateur-soccer-usa\\Providers\\LeagueProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:05:17.382Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Regions [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/matchday.database.windows.net/matchday/referee/SqlTable/dbo.Regions.sql",
-              "ToolTip": "dbo.Regions [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-02T19:35:10.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Region.cs",
-              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\Region.cs",
-              "RelativeDocumentMoniker": "Entities\\Database\\Region.cs",
-              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\Region.cs",
-              "RelativeToolTip": "Entities\\Database\\Region.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Title": "LeagueProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\MappingProfiles\\LeagueProfile.cs",
+              "RelativeDocumentMoniker": "amateur-soccer-usa\\MappingProfiles\\LeagueProfile.cs",
+              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\MappingProfiles\\LeagueProfile.cs",
+              "RelativeToolTip": "amateur-soccer-usa\\MappingProfiles\\LeagueProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwBEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:34:36.871Z",
+              "WhenOpened": "2024-09-19T01:30:09.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "League.cs",
-              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\League.cs",
-              "RelativeDocumentMoniker": "Entities\\Database\\League.cs",
-              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\League.cs",
-              "RelativeToolTip": "Entities\\Database\\League.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:29:05.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LeagueCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\DTO\\League\\LeagueCreateDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTO\\League\\LeagueCreateDTO.cs",
               "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\DTO\\League\\LeagueCreateDTO.cs",
               "RelativeToolTip": "Entities\\DTO\\League\\LeagueCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T19:28:22.976Z",
+              "WhenOpened": "2024-09-19T01:22:40.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeaguesController.cs",
+              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\Controllers\\LeaguesController.cs",
+              "RelativeDocumentMoniker": "amateur-soccer-usa\\Controllers\\LeaguesController.cs",
+              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\Controllers\\LeaguesController.cs",
+              "RelativeToolTip": "amateur-soccer-usa\\Controllers\\LeaguesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:10:42.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILeagueProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\Providers\\ILeagueProvider.cs",
+              "RelativeDocumentMoniker": "amateur-soccer-usa\\Providers\\ILeagueProvider.cs",
+              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\amateur-soccer-usa\\Providers\\ILeagueProvider.cs",
+              "RelativeToolTip": "amateur-soccer-usa\\Providers\\ILeagueProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:09:32.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "08c9cca1-0781-44dc-a1a8-7945d2b30b11",
+        "Display": 0,
+        "X": 878,
+        "Y": 307,
+        "Width": 1163,
+        "Height": 741,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "League.cs",
+              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\League.cs",
+              "RelativeDocumentMoniker": "Entities\\Database\\League.cs",
+              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\Database\\League.cs",
+              "RelativeToolTip": "Entities\\Database\\League.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:30:31.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "560c6069-65e2-4aff-b159-b9490f366d9f",
+        "Display": 0,
+        "X": 692,
+        "Y": 708,
+        "Width": 1163,
+        "Height": 741,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeagueUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\DTO\\League\\LeagueUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTO\\League\\LeagueUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Brian Taylor\\Desktop\\projects\\amateur-soccer-usa\\amateur-soccer-usa\\Entities\\DTO\\League\\LeagueUpdateDTO.cs",
+              "RelativeToolTip": "Entities\\DTO\\League\\LeagueUpdateDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA5wAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:30:43.955Z",
               "EditorCaption": ""
             }
           ]

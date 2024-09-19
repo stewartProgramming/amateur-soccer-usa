@@ -1,4 +1,5 @@
 ﻿using amateur_soccer_usa.Providers;
+using Entities.DTO.League;
 using Entities.Parameters;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,7 +15,28 @@ namespace amateur_soccer_usa.Controllers
             return Ok(await leagueProvider.GetAsync(parameters));
         }
 
-        //[HttpGet(Name = "CreateLeague")]
-        //public async Task<IActionResult> CreateAsync()
+        [HttpPost(Name = "CreateLeague")]
+        public async Task<IActionResult> CreateAsync([FromBody]LeagueCreateDTO createModel)
+        {
+            await leagueProvider.CreateAsync(createModel);
+
+            return NoContent();
+        }
+
+        [HttpPut(Name = "UpdateLeague")]
+        public async Task<IActionResult> UpdateAsync([FromBody]LeagueUpdateDTO updateModel)
+        {
+            await leagueProvider.UpdateAsync(updateModel);
+
+            return NoContent();
+        }
+
+        [HttpDelete(Name = "DeleteLeague")]
+        public async Task<IActionResult> DeleteAsync([FromBody]int leagueId)
+        {
+            await leagueProvider.DeleteAsync(leagueId);
+
+            return NoContent();
+        }
     }
 }

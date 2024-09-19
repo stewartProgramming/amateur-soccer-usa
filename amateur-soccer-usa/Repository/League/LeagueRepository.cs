@@ -8,6 +8,12 @@ namespace Repository.League
     public class LeagueRepository(RepositoryContext repoContext) 
         : RepositoryBase<Entities.Database.League>(repoContext), ILeagueRepository
     {
+        public async Task<Entities.Database.League?> FindAsync(int leagueId)
+        {
+            return await FindByCondition(x => x.Id == leagueId)
+                .FirstOrDefaultAsync();
+        }
+
         public async Task<IEnumerable<Entities.Database.League>> GetAsync(LeagueParameters parameters)
         {
             var leagues = FindAll();
@@ -26,7 +32,7 @@ namespace Repository.League
 
             if (parameters.CountryId != null)
                 leagues = leagues
-                    .Where(x => x.Region.CountryId.Equals(parameters.CountryId));
+                    .Where(x => x.Region != null && x.Region.CountryId.Equals(parameters.CountryId));
 
             return await leagues
                 .Include(x => x.Region)

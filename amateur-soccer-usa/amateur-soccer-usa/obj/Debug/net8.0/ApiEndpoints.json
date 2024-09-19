@@ -30,5 +30,56 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "GetLeagues"
+  },
+  {
+    "ContainingType": "amateur_soccer_usa.Controllers.LeaguesController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Leagues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createModel",
+        "Type": "Entities.DTO.League.LeagueCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateLeague"
+  },
+  {
+    "ContainingType": "amateur_soccer_usa.Controllers.LeaguesController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Leagues",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateModel",
+        "Type": "Entities.DTO.League.LeagueUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateLeague"
+  },
+  {
+    "ContainingType": "amateur_soccer_usa.Controllers.LeaguesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Leagues",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leagueId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteLeague"
   }
 ]
