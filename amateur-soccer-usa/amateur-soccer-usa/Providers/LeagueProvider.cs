@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Azure.Storage.Blobs;
 using Entities.Database;
 using Entities.DTO.League;
 using Entities.Methods;
@@ -8,8 +9,10 @@ using Repository.Log;
 
 namespace amateur_soccer_usa.Providers
 {
-    public class LeagueProvider(ILeagueRepository leagueRepo, IMapper mapper, ILogRepository logRepo) : ILeagueProvider
+    public class LeagueProvider(ILeagueRepository leagueRepo, IMapper mapper, ILogRepository logRepo, IConfiguration config) : ILeagueProvider
     {
+        BlobServiceClient blobClient = new(config["ConnectionStrings:AzureBlobStorageConnection"]);
+
         public async Task<string> CreateAsync(LeagueCreateDTO createModel)
         {
             League newLeague = new()
@@ -23,6 +26,8 @@ namespace amateur_soccer_usa.Providers
                 Logo = createModel.LogoUrl
             };
             await leagueRepo.CreateAndSaveAsync(newLeague);
+
+            var test = blobClient.GetBlobContainers().ToList();
 
             Entities.Database.Log newLog = new()
             {

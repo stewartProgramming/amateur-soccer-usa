@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("amateur-soccer-usa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70f35cd0c948bd18e63618e08ea7e31f3b6eff6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42beb0c17d6c24f3b312f831182c6737409cc0e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("amateur-soccer-usa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("amateur-soccer-usa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
