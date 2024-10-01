@@ -5,6 +5,8 @@ namespace amateur_soccer_usa.Providers
 {
     public interface ILeagueProvider
     {
+        Task<string> Testing();
+        Task<string> Testing2();
         Task<string> CreateAsync(LeagueCreateDTO createModel);
         Task<IEnumerable<LeagueDTO>> GetAsync(LeagueParameters parameters);
         Task UpdateAsync(LeagueUpdateDTO updateModel);

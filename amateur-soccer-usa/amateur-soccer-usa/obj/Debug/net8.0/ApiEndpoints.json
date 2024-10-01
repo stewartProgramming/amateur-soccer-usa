@@ -81,5 +81,15 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "DeleteLeague"
+  },
+  {
+    "ContainingType": "amateur_soccer_usa.Controllers.LeaguesController",
+    "Method": "Testing",
+    "RelativePath": "api/Leagues/testing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

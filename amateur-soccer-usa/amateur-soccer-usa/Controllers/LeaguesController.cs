@@ -1,7 +1,6 @@
 ﻿using amateur_soccer_usa.Providers;
 using Entities.DTO.League;
 using Entities.Parameters;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace amateur_soccer_usa.Controllers
@@ -9,8 +8,16 @@ namespace amateur_soccer_usa.Controllers
     //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class LeaguesController(ILeagueProvider leagueProvider) : ControllerBase
+    public class LeaguesController(ILeagueProvider leagueProvider) 
+        : ControllerBase
+
     {
+        [HttpGet("testing")]
+        public async Task<IActionResult> Testing()
+        {
+            return Ok(await leagueProvider.Testing2());
+        }
+
         [HttpGet(Name = "GetLeagues")]
         public async Task<IActionResult> GetAsync([FromQuery]LeagueParameters parameters)
         {

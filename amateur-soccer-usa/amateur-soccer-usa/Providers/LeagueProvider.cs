@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using Azure.Storage.Blobs;
 using Entities.Database;
 using Entities.DTO.League;
 using Entities.Methods;
 using Entities.Parameters;
+using Microsoft.Data.SqlClient;
 using Repository.League;
 using Repository.Log;
 
@@ -11,6 +11,53 @@ namespace amateur_soccer_usa.Providers
 {
     public class LeagueProvider(ILeagueRepository leagueRepo, IMapper mapper, ILogRepository logRepo, IConfiguration config) : ILeagueProvider
     {
+
+        public async Task<string> Testing()
+        {
+            string returnString = string.Empty;
+            SqlConnection sqlConnection = new(config["ConnectionStrings:DefaultConnection"]);
+            await sqlConnection.OpenAsync();
+            SqlCommand sqlCommand = new("SelectLeagueByRegion", sqlConnection)
+            {
+                CommandType = System.Data.CommandType.StoredProcedure
+            };
+            sqlCommand.Parameters.Add(new SqlParameter("@Region", 4));
+            var reader = sqlCommand.ExecuteReader();
+            while (reader.Read())
+            {
+                returnString = reader["LeagueName"].ToString();
+            }
+
+            sqlConnection.Close();
+            reader.Close();
+
+            return returnString;
+        }
+
+        public async Task<string> Testing2()
+        {
+            string returnString = string.Empty;
+            SqlConnection sqlConnection = new(config["ConnectionStrings:DefaultConnection"]);
+            await sqlConnection.OpenAsync();
+            SqlCommand sqlCommand = new("SelectLeagueByParameters", sqlConnection)
+            {
+                CommandType = System.Data.CommandType.StoredProcedure
+            };
+            sqlCommand.Parameters.AddRange(
+            [
+                new SqlParameter("@Region", 4),
+                new SqlParameter("@Country", 3)
+            ]);
+            SqlDataReader reader = sqlCommand.ExecuteReader();
+            while (reader.Read())
+            {
+                returnString = reader["LeagueName"].ToString();
+            }
+            sqlConnection.Close();
+            reader.Close();
+
+            return returnString;
+        }
 
         public async Task<string> CreateAsync(LeagueCreateDTO createModel)
         {
